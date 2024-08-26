@@ -1,0 +1,56 @@
+.clientes-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .titulo-clientes {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .descripcion-clientes {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .clientes-testimonios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .testimonio {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    text-align: left;
+    position: relative;
+  }
+  
+  .foto-cliente {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .texto-testimonio {
+    font-style: italic;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .nombre-cliente {
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 5px;
+    text-align: right;
+  }
+
